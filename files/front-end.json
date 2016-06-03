@@ -1,0 +1,43 @@
+[
+{
+	"Title": "Project Babel",
+	"Url": "http://students.washington.edu/soichit/info343/babel-collab/",
+	"Description": "<p>&emsp;&emsp;This was our final project for our web development class. We got to practice leadership and teamwork skills through collaborating in groups of 4. We also collaborated with one of the database researchers in the Informatics department to expand a revolutionary search engine to help students and researchers find the most relevant scholarly article. Our job was the front-end part so we took their API with their search engine and implemented a way to see the data visually. We got one of the highest grades in class by spending a total amount close to 100 hours on this project.</p><p class=\"boldText\">What I learned: Using D3, implementing APIs, collaborating with a team</p>",
+	"Image": "http://i.imgur.com/ydoiDKQ.jpg"
+},
+
+{
+	"Title":"Spotify Parody",
+	"Url":"http://students.washington.edu/soichit/info343/spotify/",
+	"Description":"<p>&emsp;&emsp;For this project, we used the Spotify API to make our own Spotify application but adding our own spice into it. I decided to combine the functionality of Twitter and Spotify so users can tweet about their favorite music on my web application. I got practice making a simple log in form with Angular and storing all the relevant information using Firebase. </p><p class=\"boldText\">What I learned: Using APIs, AngularJS, and using Firebase to store the data.</p>",
+	"Image":"http://i.imgur.com/jSMwiaI.jpg"
+},
+
+{
+	"Title": "Police Shootings Map",
+	"Url": "http://students.washington.edu/soichit/info343/police-shooting2/",
+	"Description": "<p>&emsp;&emsp;This project takes in data for police shootings across the United States and displays it visually across a map. The map comes with filters to sort that data depending on what the user wants to see. I wanted to focus on the user-friendliness and aesthetics for the visual data.</p><p class=\"boldText\">What I learned: Using Leaflet, JavaScript and jQuery.</p>",
+	"Image": "http://i.imgur.com/tNsxp4O.jpg"
+},
+
+{
+	"Title": "Amazon Review Page",
+	"Url": "http://students.washington.edu/soichit/info343/amazon",
+	"Description": "<p>&emsp;&emsp;This project replicated a review page for a site like Amazon. We used Parse to store the data of all the reviews, ratings, and comment ratings. We created a like and dislike function for each review. </p><p class=\"boldText\">What I learned: Using Parse to store data, JavaScript, and Raty for the stars.</p>",
+	"Image": "http://i.imgur.com/KwxdB1B.jpg"
+},
+
+{
+	"Title": "Dawg Coffee Page",
+	"Url": "http://students.washington.edu/soichit/info343/dawg-coffee",
+	"Description": "<p>&emsp;&emsp;This was the first webpage we made in our Informatics 343 client-side web development class. We replicated a sample site for a fictional cafe. The focus was on detail and making the page work for different screen dimensions like for users who view the site on their phone.</p><p class=\"boldText\">What I learned: Responsive web design, using HTML, CSS, and Bootstrap to organize the layout aesthetically.</p>",
+	"Image": "http://i.imgur.com/DF6hteX.jpg"
+},
+
+{
+	"Title": "Personal Portfolio Old Version",
+	"Url": "http://students.washington.edu/soichit/info343/me",
+	"Description": "<p>&emsp;&emsp;This was the first version of this personal portfolio site I created. There's been a lot of changes made (especially the addition of my homepage) since the first version. I wanted to create a simple, user-friendly interface that showed all my projects but also displayed my skills to add aesthetic and cool features. The new aesthetic features added to my homepage consist of CSS hover over effects and Angular animations. I wanted as many aesthetic features as possible while still maintaining a user-friendly experience where everything relevant is easy to find and simple. A lot of elements I learned in my Design Thinking and UX Design classes were incorporated into this personal portfolio webpage.</p><p class=\"boldText\">What I learned: UX design, ng animations with AngularJS, animations with CSS.</p>",
+	"Image": "http://imgur.com/KOcFBkH.jpg"
+}
+]

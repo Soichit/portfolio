@@ -1,0 +1,29 @@
+[
+{
+	"Title":"Subliminal",
+	"Achievement":"Voted best project overall amongst over 35 groups",
+	"Class":"Info200",
+	"Url1":"files/info200_final.pptx",
+	"Url2":"files/info200_personas.pdf",
+	"Description":"<p>Class: UX and Information Architecture Class</p><p>&emsp;&emsp;This was my biggest achievement in terms of winning first place within the fundamental Informatics class of 150 students and over 35 groups. Our diverse group had many disagreements along the design process, and we never would’ve landed on the solution we had if it weren’t for our different perspectives. This project really helped me learn to communicate, collaborate, and most of all, emphasize to look at the world through the eyes of my teammates and the eyes of our users. We aimed to create a mobile solution that makes every relevant information instantly accessible. We went above and beyond, holding weekly meetings and even when there weren’t any project deadlines that week. One of the challenges was designing for our user persona who was completely blind and required noise cues.</p><p class=\"boldText\">What I learned: Interviewing users, user surveys, user personas, wireframes, prototyping, Sketch, competitive analysis, presentation, collaboration, communication, management, empathetic design, and mobile design.</p>"
+},
+
+{
+	"Title":"Smart Soles",
+	"Achievement":"Created video to document design process",
+	"Class":"Info360",
+	"Url1":"https://www.youtube.com/watch?v=GvWolXRuYsA",
+	"Url2":"files/info360_design.docx",
+	"Url3":"files/info360_final.pdf",
+	"Description":"<p>Class: Design Thinking</p><p>&emsp;&emsp;Designed an insole that can be inserted into your shoes to track unique data from your foot as well as a mobile app interface that displays that information in a user-friendly manner. I also documented our design process through the video (link provided to the right). Please click on the middle link to view some of the major design decisions we faced.</p><p class=\"boldText\">What we learned: designing for transitions, user personas, scenarios, user research, user interviews, contextual interviews, participatory design, user testing, A/B testing, design decisions, wireframes, mockups, as well as physical and digital prototyping.</p>"
+	},
+
+{
+	"Title":"A to Z",
+	"Achievement":"Voted best project overall in class",
+	"Class":"Info330",
+	"Url1":"files/info330_final_ppt.pdf",
+	"Url2":"files/info330_final_doc.pdf",
+	"Description":"<p>Class: UX and Information Architecture Class</p><p>&emsp;&emsp;This is another project where my group won the overall class vote. We designed a ride-sharing platform for the modern hitchhiker. While brainstorming any problems we faced on a daily basis, I had the idea of combining Uber with modern hitchhiking. If you’re driving somewhere and have an open spot in your car, why not lend that spot to someone going the same direction to make some extra money? We designed this solution before Uber started to incorporate this type of carpooling system as well. This was another group project where I got to collaborate with other ambitious peers and we were taught a lot of business ideas as well that intertwined with our thinking on user experience. </p><p class=\"boldText\">What I learned: User experience, User interface, user personas, business proposals, budgeting, marketing, presentation, content strategy, and interactive design.</p>"
+	}
+]

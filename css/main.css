@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300italic,300' rel='stylesheet' type='text/css");
+
+
+html{
+    width:100%;
+    height:100%;
+}
+
+.container-fluid { 
+    padding: 0px;
+}
+
+body {
+	text-align: center;
+	font-size: 16px;
+}
+
+#homeHeader h1 {
+	color: white;
+	display: inline-block;
+	margin-top: 10%;
+	font-size: 140px;
+	text-align: center;
+}
+
+#homeHeader h3 {
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+}
+
+#homeHeader{
+	top: 0px;
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	background-image: url('../img/optical-illusion.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 100%;
+	min-height: 600px;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+
+#content{
+	margin-top: 0;
+}
+
+#homeProjects {
+	background-color: black;
+	color: white;
+	margin-bottom: 120px;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+
+#homeProjects a{
+	font-size: 35px;
+	color: white;
+	text-decoration: underline;
+}
+
+#homeProjects ul{
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 20%;
+	font-size: 20px;
+	list-style: none;
+}
+
+@media screen and (min-width: 1000px) {
+	#homeProjects li{
+		float:left;
+	    clear:left;
+	}
+}
+
+#homeProjects li:before {
+    content: "\2713";
+}
+
+#homeProjects li:hover {
+    color: #7fff7f;  
+}
+
+#homeProjects a:hover {
+	color: #7fff7f;
+}
+
+#homeWords {
+	background-color: black;
+	margin-bottom: 120px;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+/*
+.homeWords:hover {
+	fill: rgba(0,0,0,0);
+	text-shadow: 0 0 20px #FBFE8B;
+}
+.homeWords {
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+*/
+
+#homeVideo {
+	background-color: black;
+	margin-bottom: 120px;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+
+#homeHobbies{
+	font-size: 20px;
+	text-align: center;
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 160px;
+}
+
+@media screen and (min-width: 1800px) {
+	h1{
+		font-size: 200px;
+	}
+
+	h2{
+		font-size: 75px;
+	}
+
+	h3{
+		font-size: 50px;
+	}
+
+	#homeHobbies{
+		margin-top: 200px;
+		font-size: 30px;
+	}
+}
+
+.container {
+	position:relative;
+	overflow:hidden;
+	width:115px;
+	height:110px;
+}
+.container .textbox {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:115px;
+	height:100px;
+	margin-left:-150px;
+	margin-top:30px;
+}
+.container:hover .textbox {
+	margin-left:-5px;
+	margin-top:30px;
+}
+.container img {
+	width:100px;
+	height:100px;	
+	margin-left:0;
+}
+.container:hover img {
+	margin-left:120px;
+}
+.container img, .textbox {
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+@media screen and (min-width: 1800px) {
+	#homeLinks{
+		margin-top: 80px;
+	}
+	#homeLinks a{
+		font-size: 35px;
+	}
+	.container {
+		position:relative;
+		overflow:hidden;
+		width:165px;
+		height:160px;
+	}
+	.container .textbox {
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:165px;
+		height:150px;
+		margin-left:-180px;
+		margin-top:50px;
+	}
+	.container:hover .textbox {
+		margin-left:0px;
+		margin-top:50px;
+		margin-right:10px;
+	}
+	.container img {
+		width:150px;
+		height:150px;	
+		margin-left:0;
+	}
+	.container:hover img {
+		margin-left:170px;
+	}
+}
+
+.text1 {
+	font-size: 80px;
+	font-family: 'Rubik', Copperplate, 'Copperplate Gothic Light', fantasy;
+	color: #d4d4d4;
+	display: inline-block;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.text1:hover {
+text-shadow: 0 1px 0 #666,
+0 20px 0 #555,
+10px 30px 0 #444,
+20px 40px 0 #333,
+30px 50px 0 #222,
+40px 60px 10px #111,
+0 0 10px rgba(0,0,0,.6),
+0 20px 60px rgba(0,0,0,.5),
+20px 60px 100px rgba(0,0,0,.4),
+60px 100px 200px rgba(0,0,0,.3),
+100px 200px 200px rgba(0,0,0,.2),
+200px 400px 400px rgba(0,0,0,.1);
+
+
+/*
+.text1:hover {
+text-shadow: 0 1px 0 #666,
+0 20px 0 #555,
+10px 30px 0 #444,
+20px 40px 0 #333,
+30px 50px 0 #222,
+40px 60px 10px #111,
+0 0 10px rgba(0,0,0,.6),
+0 20px 60px rgba(0,0,0,.5),
+20px 60px 100px rgba(0,0,0,.4),
+60px 100px 200px rgba(0,0,0,.3),
+100px 200px 200px rgba(0,0,0,.2),
+200px 400px 400px rgba(0,0,0,.1);
+*/
+
+}.text2 {
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+.text2:hover {
+text-shadow: 0 30px 0 #666,
+0 2px 0 #555,
+1px 3px 0 #444,
+2px 4px 0 #333,
+3px 5px 0 #222,
+4px 6px 1px #111,
+0 0 5px rgba(0,0,0,.6),
+0 1px 3px rgba(0,0,0,.5),
+1px 3px 5px rgba(0,0,0,.4),
+3px 5px 10px rgba(0,0,0,.3),
+5px 10px 10px rgba(0,0,0,.2),
+10px 20px 20px rgba(0,0,0,.1);
+}
+
+
+
+/*--------------------------Circles---------------------------------*/
+.w3-container {
+	position:relative;
+	width:250px;
+	height:250px;
+}
+.w3-container:hover .image2 {
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+.image2 {
+	height: 250px;
+	width: 250px;
+	//margin: 10px;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.w3-container .textbox {
+	width:250px;
+	height:250px;
+	//margin: 10px;
+	position:absolute;
+	left:0px;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	border-radius:100%;
+	-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+	box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+#firstCircle .textbox {
+	top:-112px;
+}
+#fourthCircle .text {
+	padding-top:90px;
+}
+.w3-container:hover .textbox {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.text {
+	color: white;
+	padding-top: 100px;
+	font-size: 30px;
+}
+.textbox {
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+@media screen and (max-width: 1300px) {
+	.w3-container {
+		width:150px;
+		height:150px;
+	}
+	.w3-container .textbox {
+		width:150px;
+		height:150px;
+		margin-left:20px;
+	}
+	.text {
+		padding-top: 65px;
+		font-size: 20px;
+	}
+	.image2 {
+		height: 150px;
+		width: 150px;
+		margin-left: 20px;
+	}
+	#fourthCircle .text {
+		padding-top:40px;
+	}
+	#firstCircle .textbox {
+		top:-61px;
+	}
+}
+
+
+@media screen and (min-width: 2300px) {
+	.w3-container {
+		width:300px;
+		height:300px;
+	}
+	.w3-container .textbox {
+		width:300px;
+		height:300px;
+		margin-left: 75px;
+		margin-right:75px;
+		margin-top: 25px;
+		left:0px;
+	}
+	.text {
+		padding-top: 120px;
+		font-size: 40px;
+	}
+	.image2 {
+		height: 300px;
+		width: 300px;
+		margin-left: 75px;
+		margin-right:75px;
+		margin-top: 25px;
+	}
+	#firstCircle .textbox {
+		top:-142px;
+	}
+}
+
+#footer {
+	text-align: right;
+	width: 100%;
+	position: fixed;
+    bottom: 5px;
+    z-index: 3;
+}
+
+#footer a {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-weight: bold;
+	font-size: 16px;
+	color: #7a7a7a;
+	margin-right: 20px;
+}
+
+
+/*---------------------------------------Nav-------------------------------------------*/
+#navContainer {
+	margin-top: 0.7em;
+}
+
+#soichiNav {
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	opacity: 0.9;
+	border-radius: 0px;
+	padding-left: 15px;
+	z-index: 3;
+	border: none;
+}
+
+@media screen and (min-width: 768px) {
+	#soichiNav a{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+#soichiNav ul{
+	padding-top: 0.5em;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#soichiNav li{
+	display: inline;
+}
+
+#soichiNav a{
+	color: white;
+	padding: 0.5em;
+	font-size: 20px;
+	text-decoration: none;
+	font: Lato;
+	font-variant: small-caps;
+}
+
+#soichiNav a:hover {
+    color: #D87E28;
+}
